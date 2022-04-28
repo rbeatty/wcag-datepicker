@@ -1,0 +1,20 @@
+{
+  "name": "datepicker",
+  "version": "1.0.0",
+  "description": "Accessible datepicker",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Randall Beatty",
+    "email": "randall.beatty@ghd.com"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0"
+  }
+}

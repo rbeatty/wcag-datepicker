@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Datepicker Examples</title>
+
+  <style>
+    html {
+      font-family: sans-serif;
+      font-size: 16px;
+      background: snow;
+    }
+
+    body {
+      margin: 0 auto;
+      padding: 1rem;
+      max-width: 1000px;
+      min-height: 100vh;
+    }
+
+    label {
+      display: block;
+    }
+  </style>
+
+  <link href="src/datepicker.css" rel="stylesheet" />
+  <!-- <link href="dist/datepicker.min.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+  <main>
+    <h1>Datepicker examples</h1>
+
+    <h2>Single datepicker</h2>
+
+    <div class="datepicker">
+      <label for="datepicker-single">Date (mm/dd/yyyy)</label>
+      <input id="datepicker-single" name="datepicker-single-input" type="text">
+    </div>
+
+    <h2>Range datepickers</h2>
+
+    <h3>Stacked</h3>
+    <fieldset class="datepicker__fieldset">
+      <legend>Date range</legend>
+
+      <div class="datepicker">
+        <label for="datepicker-range-start">Start date (mm/dd/yyyy)</label>
+        <input id="datepicker-range-start" name="datepicker-range-start-input" type="text">
+      </div>
+
+      <div class="datepicker">
+        <label for="datepicker-range-end">End date (mm/dd/yyyy)</label>
+        <input id="datepicker-range-end" name="datepicker-range-end-input" type="text">
+      </div>
+    </fieldset>
+
+    <h3>Inline</h3>
+    <fieldset class="datepicker__fieldset datepicker__fieldset--inline">
+      <legend>Date range</legend>
+
+      <div class="datepicker">
+        <label for="datepicker-range-inline-start">Start date (mm/dd/yyyy)</label>
+        <input id="datepicker-range-inline-start" name="datepicker-range-inline-start-input" type="text">
+      </div>
+
+      <div class="datepicker">
+        <label for="datepicker-range-inline-end">End date (mm/dd/yyyy)</label>
+        <input id="datepicker-range-inline-end" name="datepicker-range-inline-end-input" type="text">
+      </div>
+    </fieldset>
+  </main>
+
+  <script src="src/datepicker.js"></script>
+  <!-- <script src="dist/datepicker.min.js"></script> -->
+</body>
+</html>
